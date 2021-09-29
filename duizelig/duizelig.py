@@ -1,4 +1,5 @@
-
+from _typeshed import SupportsDivMod
+from sys import dont_write_bytecode
 
 
 print ("duizelig") 
@@ -65,7 +66,13 @@ if quit == ("quit")
 
 
 
- 
+som = 0
+teller = 50
+while som < 1000: 
+    print (teller) 
+    som = teller + som
+    teller = teller +1
+    print (som) 
    
   
 
